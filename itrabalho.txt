@@ -1,0 +1,21 @@
+for (let andar = 20; andar >= 1; andar--) {
+    if (andar === 13) {
+        continue; // Pula o número 13
+    }
+    console.log(andar);
+}let andar = 20;
+
+while (andar >= 1) {
+    if (andar !== 13) {
+        console.log(andar);
+    }
+    andar--;
+}
+let andar = 20;
+
+do {
+    if (andar !== 13) {
+        console.log(andar);
+    }
+    andar--;
+} while (andar >= 1);
