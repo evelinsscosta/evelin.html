@@ -1,0 +1,40 @@
+/* Estilo geral da página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Título principal */
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+/* Parágrafos */
+p {
+  font-size: 18px;
+  color: #333;
+  padding: 10px;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+/* Efeito ao passar o mouse */
+a:hover {
+  text-decoration: underline;
+}
+
+/* Card */
+.card {
+  background-color: white;
+  margin: 20px;
+  padding: 15px;
+  border-radius: 8px;
+}
