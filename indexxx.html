@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Cadastro</title>
+
+<style>
+    body {
+        margin: 0;
+        height: 100vh;
+
+        display: flex;                 /* ativa o flex */
+        justify-content: center;       /* centraliza horizontal */
+        align-items: center;           /* centraliza vertical */
+
+        background-color: #f4f4f4;
+        font-family: Arial, sans-serif;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;        /* elementos em coluna */
+        gap: 15px;                     /* espaço entre eles */
+
+        background: white;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        width: 300px;
+    }
+
+    input {
+        padding: 8px;
+    }
+
+    button {
+        padding: 10px;
+        background: #4CAF50;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background: #45a049;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <h2>Cadastro</h2>
+    <input type="text" placeholder="Nome completo">
+    <input type="number" placeholder="Ano de nascimento">
+    <button>Enviar</button>
+</div>
+
+</body>
+</html>
